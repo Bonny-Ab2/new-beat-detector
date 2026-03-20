@@ -1,31 +1,11 @@
-# Virtual environments
 venv/
 venv39/
-env/
-.env/
-
-# Python cache
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-# OS files
 .DS_Store
-Thumbs.db
-
-# Large binaries and models
 *.zip
-*.tar.gz
+test_import.py
+fix_beatnet.py
 *.dylib
 *.so
 *.bin
-
-# Local files
-beatnet.zip
-test_import.py
-fix_beatnet.py
-
-# Temporary files
-*.tmp
-*.temp
