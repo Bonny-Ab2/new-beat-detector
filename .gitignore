@@ -1,0 +1,8 @@
+venv/
+venv39/
+__pycache__/
+*.pyc
+.DS_Store
+*.zip
+test_import.py
+fix_beatnet.py
