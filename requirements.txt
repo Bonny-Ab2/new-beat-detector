@@ -5,3 +5,4 @@ librosa==0.10.1
 scipy==1.7.3
 torch==2.0.1
 torchaudio==2.0.2
+setuptools
