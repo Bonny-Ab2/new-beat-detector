@@ -12,10 +12,10 @@ pip install Cython numpy==1.20.3
 # Install setuptools and lock it
 pip install setuptools==70.0.0
 
-# Install madmom using --no-build-isolation
+# Install madmom
 pip install madmom==0.16.1 --no-build-isolation
 
-# Install BeatNet from the correct repository
+# Install BeatNet
 pip install git+https://github.com/mjhydri/BeatNet.git --no-deps
 
 # Install BeatThis
@@ -27,11 +27,11 @@ pip install einops rotary-embedding-torch
 # Apply Python 3.9 compatibility fix to BeatThis
 python fix_beatthis.py
 
-# Install matplotlib version compatible with numpy 1.20.3
+# Install matplotlib
 pip install matplotlib==3.5.3
 
 # Install remaining requirements
 pip install -r requirements.txt
 
-# Reinstall setuptools to ensure it's present
+# Reinstall setuptools
 pip install --force-reinstall --no-deps setuptools==70.0.0
