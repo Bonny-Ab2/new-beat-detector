@@ -23,3 +23,6 @@ pip install einops rotary-embedding-torch
 
 # Install remaining requirements
 pip install -r requirements.txt
+
+# FORCE reinstall setuptools to ensure pkg_resources is available
+pip install --force-reinstall setuptools
