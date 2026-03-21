@@ -6,8 +6,11 @@ python -m venv .venv
 source .venv/bin/activate
 
 # Upgrade pip and install core build tools
-pip install --upgrade pip setuptools wheel
+pip install --upgrade pip wheel
 pip install Cython numpy==1.20.3
+
+# Install setuptools and lock it
+pip install setuptools==70.0.0
 
 # Install madmom using --no-build-isolation
 pip install madmom==0.16.1 --no-build-isolation
@@ -24,5 +27,5 @@ pip install einops rotary-embedding-torch
 # Install remaining requirements
 pip install -r requirements.txt
 
-# FORCE reinstall setuptools to ensure pkg_resources is available
-pip install --force-reinstall setuptools
+# Reinstall setuptools to ensure it's present
+pip install --force-reinstall --no-deps setuptools==70.0.0
