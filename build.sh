@@ -24,6 +24,9 @@ pip install git+https://github.com/CPJKU/beat_this.git --no-deps
 # Install missing BeatThis dependencies
 pip install einops rotary-embedding-torch
 
+# Apply Python 3.9 compatibility fix to BeatThis
+python fix_beatthis.py
+
 # Install matplotlib version compatible with numpy 1.20.3
 pip install matplotlib==3.5.3
 
