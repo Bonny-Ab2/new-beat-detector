@@ -24,6 +24,9 @@ pip install git+https://github.com/CPJKU/beat_this.git --no-deps
 # Install missing BeatThis dependencies
 pip install einops rotary-embedding-torch
 
+# Install matplotlib for BeatNet
+pip install matplotlib
+
 # Install remaining requirements
 pip install -r requirements.txt
 
